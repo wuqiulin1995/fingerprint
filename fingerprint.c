@@ -30,7 +30,7 @@ void INIT_zipf_AND_fingerprint(struct ssdstate *ssd)
 }
 
 /*
- * Randomly acquire a fingerprint for each incoming LPN
+ * Acquire a fingerprint for each incoming LPN
  * @ fp: fingerprint
  * @ dup_ppn: find the PPN from the fingerprint array, 
  *   dup_ppn = -1 means the LPN is a new data, we write the data to a new flash page and update the fingerprint array
